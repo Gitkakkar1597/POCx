@@ -4,8 +4,8 @@ from newsplease import NewsPlease
 # List of news website URLs to scrape
 news_urls = [
     "https://www.cnn.com",
-    "https://www.theguardian.com",
-    "https://www.nytimes.com"
+    # "https://www.theguardian.com",
+    # "https://www.nytimes.com"
 ]
 
 def scrape_news(urls):
