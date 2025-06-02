@@ -3,7 +3,7 @@ from newsplease import NewsPlease
 
 # List of news website URLs to scrape
 news_urls = [
-    "https://www.cnn.com",
+    "https://www.bbc.com/news/articles/cn4qg5gzgzxo",
     # "https://www.theguardian.com",
     # "https://www.nytimes.com"
 ]
@@ -16,7 +16,7 @@ def scrape_news(urls):
         if article:
             article_info = {
                 "title": article.title,
-                "text": article.text,
+                "text": article.maintext[:165],
                 "url": url,
                 "authors": article.authors,
                 "language": article.language,

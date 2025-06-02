@@ -1,1 +1,1 @@
-news-please==1.6.13
+news-please==1.6.15
